@@ -17,10 +17,8 @@ int CCompteurDigital::getValCptInt() {
 
 CCompteurDigital::CCompteurDigital(int pBorneMax) {
 
-    int borne=pBorneMax;
-    valCpt=0;
-    cout << borne << endl;
-    cout << valCpt << endl;
+    borneMax=pBorneMax;
+    this->valCpt=0;
 
 
 }
