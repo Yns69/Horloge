@@ -6,13 +6,14 @@ bool CCompteurDigital::incrementer() {
 }
 
 std::string CCompteurDigital::getValCpt() {
-    // TODO - implement CCompteurDigital::getValCpt
-    throw "Not yet implemented";
+
+
+
 }
 
 int CCompteurDigital::getValCptInt() {
-    // TODO - implement CCompteurDigital::getValCptInt
-    throw "Not yet implemented";
+
+   return valCpt;
 }
 
 CCompteurDigital::CCompteurDigital(int pBorneMax) {

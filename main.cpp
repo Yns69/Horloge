@@ -8,4 +8,5 @@ int main()
    CCompteurDigital minutes (60);
    CCompteurDigital heure (24);
 
+   minutes.getValCptInt();
 }
