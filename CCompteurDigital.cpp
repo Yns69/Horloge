@@ -1,11 +1,22 @@
 #include "CCompteurDigital.h"
 
 bool CCompteurDigital::incrementer() {
-    // TODO - implement CCompteurDigital::incrementer
-    throw "Not yet implemented";
+
+valCpt++;
+
+if (valCpt==borneMax)
+{
+    valCpt=0;
+    return true;
+}
+cout<< valCpt << endl;
+return false;
+
 }
 
 std::string CCompteurDigital::getValCpt() {
+
+string valcpt_string;
 
 
 
