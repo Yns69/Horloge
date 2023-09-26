@@ -14,7 +14,7 @@ private:
 	 * La valeur max du compteur
 	 */
 	unsigned short borneMax;
-	unsigned short valCpt;
+    int valCpt;
 
 public:
 	/**

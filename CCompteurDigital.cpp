@@ -18,8 +18,8 @@ std::string CCompteurDigital::getValCpt() {
 
 string valcpt_string;
 
-
-
+valcpt_string=to_string(valCpt);
+return valcpt_string;
 }
 
 int CCompteurDigital::getValCptInt() {
