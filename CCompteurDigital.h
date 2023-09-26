@@ -1,5 +1,8 @@
 #ifndef CCOMPTEURDIGITAL_H
 #define CCOMPTEURDIGITAL_H
+#include <iostream>
+#include <string>
+using namespace std;
 
 /**
  * Permet de gerer automatiquement l'incrementation
