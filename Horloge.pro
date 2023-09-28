@@ -5,7 +5,9 @@ CONFIG -= qt
 
 SOURCES += \
         CCompteurDigital.cpp \
+        CHorlogeDigitale.cpp \
         main.cpp
 
 HEADERS += \
-    CCompteurDigital.h
+    CCompteurDigital.h \
+    CHorlogeDigitale.h
