@@ -1,4 +1,6 @@
 #include "CHorlogeDigitale.h"
+#include <time.h>
+#include <ctime>
 
 void CHorlogeDigitale::OnTopHorloge() {
 
@@ -22,11 +24,15 @@ std::string CHorlogeDigitale::getTime() {
     string heu;
     string deuxp=":";
     //valcpt_string=to_string(valCpt);
-    min=to_string(ptrminutes->getValCptInt());
-    heu=to_string(ptrheure->getValCptInt());
-    affichage=heu+=deuxp+=min;
+    min=(ptrminutes->getValCpt());
+    heu=(ptrheure->getValCpt());
+    affichage = heu + deuxp + min; //format hh:mm
 
     return affichage;
+
+
+
+
 }
 CHorlogeDigitale::~CHorlogeDigitale(){
     delete ptrheure;

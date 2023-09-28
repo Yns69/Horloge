@@ -1,3 +1,12 @@
+/**
+ * @file CCompteurDigital.h
+ * @author Yanis Chibane
+ * @version v1.0.0
+ * @class CCompteurDigital
+ * @date 28/09/2023
+ */
+
+
 #ifndef CCOMPTEURDIGITAL_H
 #define CCOMPTEURDIGITAL_H
 #include <iostream>
@@ -6,6 +15,9 @@ using namespace std;
 
 /**
  * Permet de gerer automatiquement l'incrementation
+ */
+/**
+ * @brief The CCompteurDigital class
  */
 class CCompteurDigital {
 
