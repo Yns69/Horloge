@@ -4,8 +4,8 @@
 class CHorlogeDigitale {
 
 private:
-	CCompteurDigital heure;
-	CCompteurDigital minutes;
+    CCompteurDigital *ptrheure; //pointeur sur un objet CCompteur Digitale
+    CCompteurDigital *ptrminutes; //pointeur sur un objet CCompteur Digitale
 
 public:
 	/**

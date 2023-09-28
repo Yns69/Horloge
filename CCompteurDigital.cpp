@@ -9,7 +9,6 @@ if (valCpt==borneMax)
     valCpt=0;
     return true;
 }
-cout<< valCpt << endl;
 return false;
 
 }
