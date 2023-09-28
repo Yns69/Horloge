@@ -1,9 +1,10 @@
 #include "CHorlogeDigitale.h"
 
 void CHorlogeDigitale::OnTopHorloge() {
-    // TODO - implement CHorlogeDigitale::OnTopHorloge
-    throw "Not yet implemented";
+
+
 }
+
 CHorlogeDigitale::CHorlogeDigitale() {
 
     ptrheure= new CCompteurDigital(24);
@@ -11,6 +12,7 @@ CHorlogeDigitale::CHorlogeDigitale() {
 
 
 }
+
 std::string CHorlogeDigitale::getTime() {
     string affichage;
     string min;
@@ -23,5 +25,8 @@ std::string CHorlogeDigitale::getTime() {
 
     return affichage;
 }
-
+CHorlogeDigitale::~CHorlogeDigitale(){
+    delete ptrheure;
+    delete ptrminutes;
+}
 

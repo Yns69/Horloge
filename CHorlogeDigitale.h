@@ -19,6 +19,7 @@ public:
 	std::string getTime();
 
 	CHorlogeDigitale();
+    ~CHorlogeDigitale();
 };
 
 #endif
