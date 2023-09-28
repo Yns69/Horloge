@@ -3,6 +3,7 @@
  * @author Yanis Chibane
  * @version v1.0.0
  * @class CCompteurDigital
+ * @brief Permet de gerer automatiquement l'incrementation
  * @date 28/09/2023
  */
 
@@ -22,11 +23,9 @@ using namespace std;
 class CCompteurDigital {
 
 private:
-	/**
-	 * La valeur max du compteur
-	 */
-	unsigned short borneMax;
-    int valCpt;
+
+    unsigned short borneMax; //!<valeur max du compteur
+    int valCpt; //!<incremente la valeure de l'heure et des minutes
 
 public:
 	/**
@@ -36,7 +35,7 @@ public:
 	 * Retour :
 	 * false : pas de RAZ
 	 * true : RAZ
-	 */
+     */
 	bool incrementer();
 
 	/**
