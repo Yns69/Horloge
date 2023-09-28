@@ -2,7 +2,10 @@
 
 void CHorlogeDigitale::OnTopHorloge() {
 
-
+  if(ptrminutes->incrementer()==true)
+  {
+      ptrheure->incrementer();
+  }
 }
 
 CHorlogeDigitale::CHorlogeDigitale() {
